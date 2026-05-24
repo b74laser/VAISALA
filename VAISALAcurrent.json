@@ -1,6 +1,6 @@
 {
-  "timestamp_iso": "2026-05-24T00:28:53",
-  "unix_time": 1779596933.7228441,
+  "timestamp_iso": "2026-05-24T00:34:03",
+  "unix_time": 1779597243.2975755,
   "temperature_c": 66.6,
   "humidity_rh": 66.6,
   "recognized_digits": {
@@ -14,54 +14,54 @@
   "digit_results": {
     "T1": {
       "digit": "6",
+      "score": 26491296.0,
+      "confidence": null,
+      "engine_used": "template_after_low_keras_confidence",
+      "keras_confidence": 0.4999127686023712
+    },
+    "T2": {
+      "digit": "6",
       "score": 26477160.0,
       "confidence": null,
       "engine_used": "template_after_low_keras_confidence",
       "keras_confidence": 0.11337008327245712
     },
-    "T2": {
-      "digit": "6",
-      "score": 26464282.0,
-      "confidence": null,
-      "engine_used": "template_after_low_keras_confidence",
-      "keras_confidence": 0.11555513739585876
-    },
     "T3": {
       "digit": "6",
-      "score": 26406729.0,
+      "score": 26448503.0,
       "confidence": null,
       "engine_used": "template_after_low_keras_confidence",
-      "keras_confidence": 0.11346885561943054
+      "keras_confidence": 0.1134728342294693
     },
     "H1": {
       "digit": "6",
-      "score": 26385957.0,
+      "score": 26235431.0,
       "confidence": null,
       "engine_used": "template_after_low_keras_confidence",
-      "keras_confidence": 0.11363312602043152
+      "keras_confidence": 0.11372016370296478
     },
     "H2": {
       "digit": "6",
-      "score": 15029874.0,
+      "score": 14672103.0,
       "confidence": null,
       "engine_used": "template_after_low_keras_confidence",
-      "keras_confidence": 0.34736621379852295
+      "keras_confidence": 0.34717926383018494
     },
     "H3": {
       "digit": "6",
-      "score": 15611153.0,
+      "score": 16238058.0,
       "confidence": null,
       "engine_used": "template_after_low_keras_confidence",
-      "keras_confidence": 0.16758184134960175
+      "keras_confidence": 0.16742675006389618
     }
   },
   "scores": {
-    "T1": 26477160.0,
-    "T2": 26464282.0,
-    "T3": 26406729.0,
-    "H1": 26385957.0,
-    "H2": 15029874.0,
-    "H3": 15611153.0
+    "T1": 26491296.0,
+    "T2": 26477160.0,
+    "T3": 26448503.0,
+    "H1": 26235431.0,
+    "H2": 14672103.0,
+    "H3": 16238058.0
   },
   "engine_requested": "keras_then_template",
   "engine_used": "template_after_low_keras_confidence",
