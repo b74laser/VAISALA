@@ -1,82 +1,71 @@
 {
-  "timestamp_iso": "2026-10-06T15:43:19",
-  "unix_time": 1791315799.2475934,
+  "timestamp_iso": "2026-10-06T15:48:30",
+  "unix_time": 1791316110.1437116,
   "temperature_c": 32.0,
-  "humidity_rh": 49.7,
+  "humidity_rh": 40.9,
   "recognized_digits": {
     "T1": "3",
     "T2": "2",
     "T3": "0",
     "H1": "4",
-    "H2": "9",
-    "H3": "7"
+    "H2": "0",
+    "H3": "9"
   },
   "digit_results": {
     "T1": {
       "digit": "3",
-      "score": 12547310.0,
+      "score": 12558861.0,
       "confidence": null,
       "engine_used": "template_after_low_keras_confidence",
-      "keras_confidence": 0.1889495998620987
+      "keras_confidence": 0.17189456522464752
     },
     "T2": {
       "digit": "2",
-      "score": 7841619.0,
+      "score": 7483945.0,
       "confidence": null,
       "engine_used": "template_after_low_keras_confidence",
-      "keras_confidence": 0.1712140589952469
+      "keras_confidence": 0.28326788544654846
     },
     "T3": {
       "digit": "0",
-      "score": 8847046.0,
+      "score": 8717219.0,
       "confidence": null,
       "engine_used": "template_after_low_keras_confidence",
-      "keras_confidence": 0.22371745109558105
+      "keras_confidence": 0.2269960641860962
     },
     "H1": {
       "digit": "4",
-      "score": 11470565.0,
+      "score": 11067061.0,
       "confidence": null,
       "engine_used": "template_after_low_keras_confidence",
-      "keras_confidence": 0.25803178548812866
+      "keras_confidence": 0.2361573576927185
     },
     "H2": {
-      "digit": "9",
-      "score": null,
-      "confidence": 0.6953405737876892,
-      "engine_used": "keras",
-      "probabilities": {
-        "0": 0.04858186095952988,
-        "1": 0.03088504634797573,
-        "2": 0.012447195127606392,
-        "3": 0.11041514575481415,
-        "4": 0.02444201521575451,
-        "5": 0.021987266838550568,
-        "6": 0.019597018137574196,
-        "7": 0.0070956130512058735,
-        "8": 0.029208282008767128,
-        "9": 0.6953405737876892
-      }
-    },
-    "H3": {
-      "digit": "7",
-      "score": 8975778.0,
+      "digit": "0",
+      "score": 9945641.0,
       "confidence": null,
       "engine_used": "template_after_low_keras_confidence",
-      "keras_confidence": 0.13780523836612701
+      "keras_confidence": 0.6468506455421448
+    },
+    "H3": {
+      "digit": "9",
+      "score": 7942282.0,
+      "confidence": null,
+      "engine_used": "template_after_low_keras_confidence",
+      "keras_confidence": 0.4903445243835449
     }
   },
   "scores": {
-    "T1": 12547310.0,
-    "T2": 7841619.0,
-    "T3": 8847046.0,
-    "H1": 11470565.0,
-    "H2": null,
-    "H3": 8975778.0
+    "T1": 12558861.0,
+    "T2": 7483945.0,
+    "T3": 8717219.0,
+    "H1": 11067061.0,
+    "H2": 9945641.0,
+    "H3": 7942282.0
   },
   "engine_requested": "keras_then_template",
-  "engine_used": "keras, template_after_low_keras_confidence",
-  "keras_confidence": 0.6953405737876892,
+  "engine_used": "template_after_low_keras_confidence",
+  "keras_confidence": null,
   "rotation": "180",
   "rotation_degrees": -1.5,
   "main_crop": {
