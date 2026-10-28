@@ -1,12 +1,12 @@
 {
-  "timestamp_iso": "2026-10-28T16:49:47",
-  "unix_time": 1793220587.298789,
-  "temperature_c": 34.5,
+  "timestamp_iso": "2026-10-28T16:54:48",
+  "unix_time": 1793220888.8470745,
+  "temperature_c": 31.4,
   "humidity_rh": 39.7,
   "recognized_digits": {
     "T1": "3",
-    "T2": "4",
-    "T3": "5",
+    "T2": "1",
+    "T3": "4",
     "H1": "3",
     "H2": "9",
     "H3": "7"
@@ -14,54 +14,54 @@
   "digit_results": {
     "T1": {
       "digit": "3",
-      "score": 10614777.0,
+      "score": 10321947.0,
       "confidence": null,
       "engine_used": "template_after_low_keras_confidence",
-      "keras_confidence": 0.1755986511707306
+      "keras_confidence": 0.1639379858970642
     },
     "T2": {
-      "digit": "4",
-      "score": 16726842.0,
+      "digit": "1",
+      "score": 8245190.0,
       "confidence": null,
       "engine_used": "template_after_low_keras_confidence",
-      "keras_confidence": 0.13110768795013428
+      "keras_confidence": 0.1780558079481125
     },
     "T3": {
-      "digit": "5",
-      "score": 16920292.0,
+      "digit": "4",
+      "score": 16572760.0,
       "confidence": null,
       "engine_used": "template_after_low_keras_confidence",
-      "keras_confidence": 0.11290794610977173
+      "keras_confidence": 0.16764123737812042
     },
     "H1": {
       "digit": "3",
-      "score": 11365139.0,
+      "score": 11485092.0,
       "confidence": null,
       "engine_used": "template_after_low_keras_confidence",
-      "keras_confidence": 0.24675895273685455
+      "keras_confidence": 0.1883968561887741
     },
     "H2": {
       "digit": "9",
-      "score": 8652537.0,
+      "score": 8949464.0,
       "confidence": null,
       "engine_used": "template_after_low_keras_confidence",
-      "keras_confidence": 0.579969584941864
+      "keras_confidence": 0.6135739088058472
     },
     "H3": {
       "digit": "7",
-      "score": 9039104.0,
+      "score": 9194454.0,
       "confidence": null,
       "engine_used": "template_after_low_keras_confidence",
-      "keras_confidence": 0.1633715033531189
+      "keras_confidence": 0.14632666110992432
     }
   },
   "scores": {
-    "T1": 10614777.0,
-    "T2": 16726842.0,
-    "T3": 16920292.0,
-    "H1": 11365139.0,
-    "H2": 8652537.0,
-    "H3": 9039104.0
+    "T1": 10321947.0,
+    "T2": 8245190.0,
+    "T3": 16572760.0,
+    "H1": 11485092.0,
+    "H2": 8949464.0,
+    "H3": 9194454.0
   },
   "engine_requested": "keras_then_template",
   "engine_used": "template_after_low_keras_confidence",
